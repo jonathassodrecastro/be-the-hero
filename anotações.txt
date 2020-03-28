@@ -1,0 +1,35 @@
+/*
+ * GET: Buscar uma informação no back-end
+ * POST: Criar uma informação no back-end
+ * PUT: Alterar uma infornação no back-end
+ * DELETE: Deletar uma informação no back-end
+*/ 
+
+/**
+ * Tipos de Parâmetros:
+ * 
+ * Query Params: Parâmetros nomeados enviados na rota após o "?" (Filtros, paginação)
+ * Route Params: Utilizados para identificar recursos 
+ * Request Body: Corpo da requisição  utilizado para criar/alterar recursos 
+ */
+
+
+    /*chamada do query params*/ const params = request.query;
+    /*chamada do rout params */ const body = request.body;
+
+
+ENTIDADES
+
+ - ong
+ - caso (incident)
+
+
+FUNCIONALIDADES
+ - login de ong
+ - logout
+ - cadastro de ong
+ - cadastrar novos casos 
+ - deletar casos
+ - listar casos especificos da ONG
+ - listar todos os casos
+ - entrar em contato com a ong
